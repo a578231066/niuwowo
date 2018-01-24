@@ -1,0 +1,115 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2017.12.18
+    最新更新:2017.12.18
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+body{overflow-x: hidden;}
+/* 头部 */
+header{ width: 100%; position: absolute; top: 0; left: 0; z-index: 999; box-shadow: 0 2px 5px 2px #eee;}
+header img{width: 100%; height: 60px;}
+/* 头部结束 */
+
+/* 内容 */
+#title{width: 100%; height: 50px; background: url(../images/postion.jpg) no-repeat; -webkit-background-size: 100% 100; background-size: 100% 100%; display: none;}
+#title h1{ line-height: 50px; text-align: center; letter-spacing: 4px; font-size: 1.7em; font-weight: bold;}
+.main{ width: 100%; height: auto; overflow: hidden; zoom: 1; margin: 62px 0 40px 0;}
+.main .title{width: 100%; height: 50px; background: url(../images/postion.jpg) no-repeat; -webkit-background-size: 100% 100; background-size: 100% 100%; display: block;}
+.main .title h1{ line-height: 50px; text-align: center; letter-spacing: 4px; font-size: 1.7em; font-weight: bold;}
+.main .all{ height: auto; overflow: hidden; zoom: 1;}
+.main .all div{ width: 100%;}
+.main .all div.right img{ width: 100%; height: 300px; float: right;}
+.main .all div.right h1{ width: 100%; height: 50px; line-height: 48px; color: #000; font-weight: normal; font-size: 2em; margin-bottom: 20px; border-bottom:1px solid #ddd; text-align: left; float: left; padding-left: 2%;}
+.main .all div.right h1 span{display: inline-block; border-bottom:2px solid #f08200;}
+.main .all div.right dl{ width: 100%; margin-bottom: 10px; line-height: 22px; min-height:30px;}
+.main .all div.right dl dt{ width: 100%; height: 30px; display: inline-block; color: #000; font-size: 1.2em; padding-left: 10px; text-align: center;}
+.main .all div.right dl dd{ padding:0 20px; color: #666; font-size: 12px; line-height: 20px;}
+
+footer{ width: 100%; height: auto;}
+footer img{width: 100%;}
+
+/* 手机端响应式 */
+@media screen  and (min-width: 500px){
+    .main .title{ height: 60px;}
+    .main .title h1{line-height: 60px; font-size: 1.8em; font-weight: normal;}
+    .main .all div.right img{ height: 400px;}
+    .main .all div.right dl dt{ height: 40px; line-height: 40px; font-size: 1.3em;}
+}
+
+@media screen  and (min-width: 600px){
+    .main .title{ height: 70px;}
+    .main .title h1{line-height: 70px; font-size: 2em; font-weight: normal;}
+    .main .all div.right img{ height: 450px;}
+    .main .all div.right dl dt{ height: 50px; line-height: 50px; font-size: 1.3em;}
+}
+
+@media screen  and (min-width: 700px){
+    .main .title{ height: 80px;}
+    .main .title h1{line-height: 80px; font-size: 2.2em; font-weight: normal;}
+    .main .all div.right img{ height: 500px;}
+    .main .all div.right dl dt{ height: 60px; line-height: 60px; font-size: 1.5em;}
+}
+
+@media screen  and (min-width: 768px){
+    .main{ margin-top: 90px;}
+}
+
+@media screen  and (min-width: 800px){
+    #title{width: 100%; height: 60px; background: url(../images/postion.jpg) no-repeat; -webkit-background-size: 100% 100; background-size: 100% 100%; margin-top: 60px; display: block;}
+    #title h1{ line-height: 60px; text-align: center; letter-spacing: 4px; font-size: 1.8em; font-weight: normal;}
+    .main{ width: 800px; height: auto; overflow: hidden; zoom: 1; margin:0 auto; margin-bottom: 40px;}
+    .main .title{display: none;}
+    .main .all{ height: auto; overflow: hidden; zoom: 1;}
+    .main .all div{ width: 100%; float: left; margin-top: 20px;}
+    .main .all div.right img{ width: 50%; height: 350px;float: right; padding-left:2%;}
+    .main .all div.right h1{ width: 50%; height: 51px; color: #000; font-weight: normal; margin-bottom: 20px; border-bottom:1px solid #ddd; text-align: left; float: left; padding-left: 0;}
+    .main .all div.right h1 span{ border-bottom:2px solid #f08200;}
+    .main .all div.right dl{ width: 100%; margin-bottom: 10px; line-height: 22px; min-height:30px;}
+    .main .all div.right dl dt{ width: auto; height: 40px; line-height: 40px; display: inline-block; color: #000; font-size: 16px; padding-right: 10px; font-weight: normal;}
+    .main .all div.right dl dd{ padding-left: 110px; color: #666; font-size: 12px;}
+}
+
+@media screen  and (min-width: 900px){
+    #title{height: 70px;}
+    #title h1{ line-height: 70px;}
+    .main{ width: 900px; }
+}
+
+
+@media screen  and (min-width: 1000px){
+    #title{height: 80px;}
+    #title h1{ line-height: 80px; text-align: center; letter-spacing: 4px; font-size: 2em; font-weight: normal;}
+    .main{ width: 1000px;}
+}
+
+@media screen  and (min-width: 1220px) and (max-width:1920px){
+    header img{ width: 100%; height: 89px;}
+/* 内容 */
+    #title{width: 100%; height: 100px; background: url(../images/postion.jpg) no-repeat; -webkit-background-size: 100% 100; background-size: 100% 100%; margin-top: 90px; display: block;}
+    #title h1{ line-height: 100px; text-align: center; letter-spacing: 4px; font-size: 36px; font-weight: normal;}
+    .main{ width: 1120px;}
+    .main .title{ display: none;}
+    .main .all{ height: auto; overflow: hidden; zoom: 1;}
+    .main .all div{ width: 100%; float: left; margin-top: 50px;}
+    .main .all div.right img{ width: 50%; height: 460px;float: right; padding-left:2%;}
+    .main .all div.right h1{ width: 50%; height: 51px; color: #000; font-weight: normal; margin-bottom: 20px; border-bottom:1px solid #ddd; text-align: left; float: left; padding-left: 0;}
+    .main .all div.right h1 span{ border-bottom:2px solid #f08200;}
+    .main .all div.right dl{ width: 100%; margin-bottom: 10px; line-height: 22px; min-height:30px;}
+    .main .all div.right dl dt{ width: auto; height: 40px; line-height: 40px; display: inline-block; color: #000; font-size: 16px; padding-right: 10px; font-weight: normal;}
+    .main .all div.right dl dd{ padding-left: 110px; color: #666; font-size: 1em;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
