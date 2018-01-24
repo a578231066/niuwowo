@@ -1,0 +1,95 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2017.11.29
+    最新更新:2017.11.29
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+header{ width: 100%; position: absolute; top: 0; left: 0; z-index: 999;}
+header img{width: 100%; height: 89px;}
+
+/* main */
+.main{ width: 100%; height: auto;}
+/*内容一*/
+.main .main_one{width: 100%; padding-top: 100px;}
+.main .main_one .title{ width: 100%; height: 200px; line-height: 200px; text-align: center; font-size: 44px; font-weight: 700; color: #d9511c; letter-spacing: 0.5px;}
+.main .main_one .down{width: 100%; height: auto; margin:0 auto; overflow: hidden; zoom: 1;}
+.main .main_one .down li{ width: 30%; height: 148px; text-align: center; float: left; margin-left: 2%;}
+.main .main_one .down li span{ margin-left: 20px; font-size: 20px;}
+.main .main_one .down li:nth-child(4){ padding-left: 2%;}
+.main .main_one .down li:last-child{ width: 32%; padding-left: 4%;}
+/* 内容二 */
+.main .main_two{width: 100%; height: 764px; background: url(../images/main_twoImg.jpg) no-repeat; background-size: 100% 100%;}
+.main .main_two .main_twoTitle{ width: 100%; text-align: center; padding-top: 96px;}
+.main .main_two .main_twoTitle p:first-child{ font-size: 37px; font-weight: 700; color: #1c8367; line-height: 35px; letter-spacing: 0.5px;}
+.main .main_two .main_twoTitle p:last-child{ font-size: 20px; color: #6e6e6e; padding-top: 25px; letter-spacing: 0.5px;}
+.main .main_two .main_twoDown{width: 100%; overflow: hidden; zoom: 1; padding-top: 120px;}
+.main .main_two .main_twoDown p{ width: 30px; font-size: 30px; line-height: 30px; text-align: center; color: #656565; padding-top: 144px; margin-left: 255px; font-weight: 700; font-family: "微软雅黑"; float: left;}
+.main .main_two .main_twoDown p:nth-child(2){ padding-top: 80px; margin-left: 0;}
+.main .main_two .main_twoDown ul{ float: left; padding-top: 40px; margin-left: 10px;}
+.main .main_two .main_twoDown ul li{ width: 72px; height: 72px; border-radius:100%; text-align: center; color: #fff; background: #9cba24; font-size: 18px; padding-top: 8px; line-height: 28px; font-weight: 700;}
+.main .main_two .main_twoDown ul li:last-child{ margin-top: 140px; background: #5aad96;}
+.main .main_two .main_twoDown dl{ width: 60%; float: left; padding-top: 20px; margin-left: 35px;}
+.main .main_two .main_twoDown dl dd{ height: 40px; line-height: 35px;}
+.main .main_two .main_twoDown dl dd i{ width: 200px; display: block; font-style: normal; font-size: 18px; float: left; color: #9cba24; text-align: center; font-weight: 700;}
+.main .main_two .main_twoDown dl dd span{ width:400px; display: inline-block; font-size: 16px; color: #6b6b6b; display: block; float: left; margin-left: 50px;}
+.main .main_two .main_twoDown dl:last-child{ padding-top: 70px;}
+.main .main_two .main_twoDown dl:last-child dd i{color:#5aad96; font-weight: 700;}
+/* 内容三 */
+.main .main_three { padding-bottom: 98px; overflow: hidden; zoom: 1;}
+.main .main_three ul{ width: 22%; float: left; margin-top: 80px; margin-right: 4%;}
+.main .main_three ul:last-child{ float: right; margin-right: 0;}
+.main .main_three ul li{ text-align: center;}
+.main .main_three ul li.title{ font-size: 28px; color: #2d7d97; line-height: 30px; padding-bottom: 15px; text-align: center;}
+.main .main_three ul li.tac{ line-height: 30px; text-align: left;}
+.main .main_three ul:nth-child(2){ text-align: left;}
+.main .main_three ul:nth-child(2) li.tac{ text-align: left;}
+.main .main_three ul:nth-child(2) li.tac span{ width: 130px;}
+.main .main_three ul:last-child li.tac{ text-align: center;}
+.main .main_three ul:last-child li.tac i{ margin-left: 0;}
+.main .main_three ul li strong,.main .main_three ul li span{ display: inline-block; width: 165px; text-align: right; font-size: 18px; color: #737373;}
+.main .main_three ul li i{ font-style: normal; color: #2d7d97; font-size: 18px; margin-left: 20px;}
+.main .main_three ul li img{ width: 98%; height: 244px; margin-top: 58px;}
+.main .main_three ul li:last-child{ font-size: 15px; margin-top: 44px; color: #7c7c7c;}
+/* 内容四 */
+.main .main_four{width: 100%; height: 570px; background: url(../images/fourBg.jpg) no-repeat; -webkit-background-size: 100% 100%;
+background-size: 100% 100%;}
+.main .main_four .one{width: 100%; height: 178px;}
+.main .main_four .one li{ float: left;}
+.main .main_four .one li:first-child{ width: 207px; height: 80px; line-height: 80px; text-align: center; color: #fff; font-size: 22px; font-weight: 700; letter-spacing: 1px; margin-left: 40px; background: #ec7b44; border-radius:50% 50%; margin-top: 50px;}
+.main .main_four .one li:nth-child(2){width: 340px; margin-left: 46px; color: #ec7b44; font-size: 16px; font-weight: 700; padding-top: 42px;}
+.main .main_four .one li:nth-child(2) p:last-child{ margin-top: 60px;}
+.main .main_four .one li:last-child{ width: 506px; color: #ec7b44; font-size: 14px; padding-top: 28px;}
+.main .main_four .one li:last-child p:last-child{ margin-top: 30px;}
+
+.main .main_four .two{width: 100%; height: 204px;}
+.main .main_four .two li:first-child{ background: #cf571c; margin-top: 70px;}
+.main .main_four .two li:nth-child(2) p{width: 240px; padding-bottom: 30px; color: #cf571c;}
+.main .main_four .two li:nth-child(2) p:last-child{ margin-top: 0; padding-bottom: 0;}
+.main .main_four .two li:last-child{ color: #cf571c; padding-top: 40px;}
+
+.main .main_four .three{ height: 188px;}
+.main .main_four .three li:first-child{ background: #963505; margin-top: 60px;}
+.main .main_four .three li:nth-child(2),.main .main_four .three li:last-child{ width: 475px; padding-top: 70px; color: #963505; font-weight: 700; font-size: 16px;}
+.main .main_four .three li:nth-child(2) p:last-child,.main .main_four .three li:last-child p:last-child{ margin-top: 20px;}
+.main .main_four .three li:last-child{width: 404px;}
+/* 内容五 */
+.main .main_five{ width: 100%; height: auto; overflow: hidden; zoom: 1;}
+.main .main_five .title{width: 100%; height: 122px; line-height: 122px; text-align: center; color: #b80000; font-size: 38px; font-weight: 700;}
+.main .main_five .down{ width: 100%;}
+.main .main_five .down dl{ width: 25%; float: left; text-align: center; padding-bottom: 60px;}
+.main .main_five .down dt{ width: 82px; height: 82px; line-height: 82px; text-align: center; font-size:18px; color: #fff; background: #b80000; border-radius: 100%; margin: 0 auto; margin-bottom: 30px;}
+.main .main_five .down dd{color: #ec7b44; line-height: 35px; font-size: 16px;}
+.main .main_five .down dl.tong dd{ line-height: 28px;}
+
+/* 底部 */
+footer{width: 100%; height: 198px;}
+footer img{ width: 100%; height: 198px;}
+
+
+
+
+
+
