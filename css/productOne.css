@@ -1,0 +1,113 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2017.12.18
+    最新更新:2017.12.18
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+body{overflow-x: hidden;}
+header{ width: 100%; position:absolute; top: 0; left: 0; z-index: 999;}
+header img{ width: 100%; height: 60px;}
+
+/* 内容 */
+.main{width: 100%; height: auto; margin-top: 80px;}
+.main .title{ width: 100%; height: 30px; border-bottom:3px solid #eee;}
+.main .title li{ display: inline-block; width: 15%; height: 30px; font-size: 1.2em; letter-spacing: 2px; text-align: center; line-height: 30px; background: #eee; margin-right: 4px; cursor: pointer; float: left;}
+.main .title li:last-child{ margin-right: 0;}
+.main .title li.active{ background: #f08200; color: #fff;}
+.main .title .shoparea{border:none; padding:0;}
+.main .title .shoparea li a{ height: 30px; padding:0;}
+.main .downMain{ width: 100%; height: auto; overflow: hidden; zoom: 1; margin-top: 20px;/*  padding-bottom: 30px; border-bottom:1px solid #eee; */}
+.main .downMain li{ width: 48%; float: left; margin-right: 1.6%; margin-bottom: 15px;}
+.main .downMain li p.img{ width: 100%; height: 150px;}
+.main .downMain li img{ width: 100%; height: 140px; padding:3px; box-shadow:10px 10px 10px 10px #f2f2f2 inset;}
+.main .downMain li:nth-child(3n+1){ margin-right: 2%;}
+.main .downMain li img:hover{ padding:0; border:3px solid #f08200;}
+.main .downMain li h1{width: 100%; font-size: 1.5em; padding:10px 0; color: #000; font-weight: normal; white-space: normal; overflow: hidden; text-overflow: ellipsis;}
+.main .downMain li h1:hover{ color: #f08200;}
+.main .downMain li div.p{width: 100%; height: 40px; color: #666; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;}
+.main .downMain li span{ color: #f49252; font-size: 1.5em; font-weight: normal;}
+.main .downMain li h1,.main .downMain li div,.main .downMain li span{ padding:0 5%;}
+
+/* footer */
+footer{ width: 100%; height: auto;}
+footer img{width: 100%;}
+
+/* 手机端响应式 */
+@media screen  and (min-width: 500px){
+    .main{ width: 99%; padding:0 0 0 1%;}
+    .main .title li{ width: 65px;}
+.main .title .shoparea{border:none;}
+    .main .title .shoparea li a{width: 65px;}
+    .main .downMain li p.img{ height: 170px;}
+    .main .downMain li img{ height: 160px;}
+}
+
+@media screen  and (min-width: 550px){
+    .main .title li{ width: 70px;}
+    .main .title .shoparea{border:none;}
+    .main .title .shoparea li a{width: 70px;}
+    .main .downMain li p.img{ height: 200px;}
+    .main .downMain li img{ height: 190px;}
+}
+
+@media screen  and (min-width: 600px){
+    .main .downMain li p.img{ height: 210px;}
+    .main .downMain li img{ height: 200px;}
+}
+
+@media screen  and (min-width: 650px){
+    .main .downMain li p.img{ height: 240px;}
+    .main .downMain li img{ height: 230px;}
+}
+
+@media screen  and (min-width: 700px){
+    .main .downMain li p.img{ height: 260px;}
+    .main .downMain li img{ height: 250px;}
+}
+
+@media screen  and (max-width: 768px){
+    .shoparea li a{ background: #eee; color: #000; border:none;}
+}
+
+@media screen  and (min-width: 768px){
+    .main{margin-top: 90px;}
+}
+
+@media screen  and (min-width: 800px){
+    .main .downMain li p.img{ height: 270px;}
+    .main .downMain li img{ height: 260px;}
+}
+
+@media screen  and (min-width: 1000px){
+    .main .downMain li p.img{ height: 290px;}
+    .main .downMain li img{ height: 280px;}
+}
+
+@media screen  and (min-width: 1220px) and (max-width:1920px){
+    header img{ width: 100%; height: 89px;}
+/* 内容 */
+    .main{width: 1120px; height: auto; margin: 110px auto; margin-bottom: 20px;}
+    .main .title{ width: 100%; height: 38px; border-bottom:3px solid #eee;}
+    .main .title li{ display: inline-block; width: 94px; height: 38px; font-size: 16px; letter-spacing: 2px; text-align: center; line-height: 38px; background: #eee; margin-right: 4px; cursor: pointer;}
+    .main .title li:last-child{ margin-right: 0;}
+    .main .title li.active{ background: #f08200; color: #fff;}
+    .main .title .shoparea{border:none;}
+    .main .title .shoparea li a{width: 94px; height: 38px; padding:0;}
+    .main .downMain{ width: 100%; height: auto; overflow: hidden; zoom: 1; margin-top: 30px;}
+    .main .downMain li{ width: 32%; float: left; margin-right: 2%; margin-bottom: 20px;}
+    .main .downMain li:first-child{ margin-bottom: 0;}
+    .main .downMain li p.img{ width: 100%; height: 292px;}
+    .main .downMain li img{ width: 100%; height: 280px; padding:3px; box-shadow:10px 10px 10px 10px #f2f2f2 inset;}
+    .main .downMain li:nth-child(3n+3){float: right; margin-right: 0;}
+    .main .downMain li img:hover{ padding:0; border:3px solid #f08200;}
+    .main .downMain li div,.main .downMain li span{ padding: 0;}
+    .main .downMain li h1{width: 100%; font-size: 18px; padding:10px 0; color: #000; font-weight: normal; white-space: normal; overflow: hidden; text-overflow: ellipsis;}
+    .main .downMain li h1:hover{ color: #f08200;}
+    .main .downMain li div.p{width: 100%; height: 40px; color: #666; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;}
+    .main .downMain li span{ color: #f49252; font-size: 18px; font-weight: normal;}    
+}
+
+
